@@ -1,4 +1,4 @@
-{Robot, Adapter, TextMessage, EnterMessage, LeaveMessage, TopicMessage, CatchAllMessage, User} = require 'hubot'
+{Robot, Adapter, TextMessage, EnterMessage, LeaveMessage, TopicMessage, CatchAllMessage, User} = require 'webbybot'
 telegrambot = require 'telegrambot'
 
 class Telegram extends Adapter
